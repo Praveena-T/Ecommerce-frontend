@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: border-box;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+  -webkit-text-decoration: capitalize;
+          text-decoration: capitalize;
+  font-family: 'Exo 2', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.5rem 2.5rem;
+  color: #fff;
+}
+
+#header .fa-bars {
+  font-size: 3rem;
+  z-index: 10000;
+  cursor: pointer;
+}
+
+#header .logo {
+  color: #fff;
+  font-size: 2rem;
+}
+
+#header .logo i {
+  padding: 0 .5rem;
+}
+
+#header .logo h1 {
+  display: inline;
+}
+
+#header .logo:hover {
+  text-decoration: none;
+}
+
+#header .left .fa-shopping-cart {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#header .left .search-container {
+  display: inline;
+  position: relative;
+}
+
+#header .left .search-container #search {
+  position: absolute;
+  top: 1.5rem;
+  right: .8rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  font-size: 1.5rem;
+  padding: 0.1rem;
+  border: none;
+  outline: none;
+  border-radius: 5rem;
+}
+
+#header .left .search-container #search:hover, #header .left .search-container #search:focus {
+  width: 25rem;
+}
+
+#header .left .search-container .fa-search {
+  position: absolute;
+  top: -.07rem;
+  left: -4rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#home {
+  min-height: 100vh;
+  width: 100vw;
+  background: #333;
+}
+/*# sourceMappingURL=style.css.map */
